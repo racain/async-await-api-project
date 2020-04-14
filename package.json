@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/racain/async-await-api-project/issues"
   },
-  "homepage": "https://github.com/racain/async-await-api-project#readme"
+  "homepage": "https://github.com/racain/async-await-api-project#readme",
+  "dependencies": {
+    "webpack": "^4.42.1"
+  }
 }
