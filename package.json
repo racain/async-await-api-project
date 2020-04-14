@@ -1,0 +1,20 @@
+{
+  "name": "async-await-api-project",
+  "version": "1.0.0",
+  "description": "This is a project utilizing a third party API to retrieve and display data using async/await. The data being pulled should used to display a random image of a dog upon button click.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/racain/async-await-api-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/racain/async-await-api-project/issues"
+  },
+  "homepage": "https://github.com/racain/async-await-api-project#readme"
+}
