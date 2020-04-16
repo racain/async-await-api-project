@@ -2,10 +2,24 @@
   "name": "async-await-api-project",
   "version": "1.0.0",
   "description": "This is a project utilizing a third party API to retrieve and display data using async/await. The data being pulled should be used to display a random image of a dog upon button click.",
-  "main": "index.js",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
   "scripts": {
     "build": "webpack",
-    "start-dev": "webpack-dev-server --watch --open"
+    "start:dev": "webpack-dev-server --watch --open"
   },
   "repository": {
     "type": "git",
@@ -17,15 +31,5 @@
   "bugs": {
     "url": "https://github.com/racain/async-await-api-project/issues"
   },
-  "homepage": "https://github.com/racain/async-await-api-project#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-loader": "^8.1.0",
-    "html-webpack-plugin": "^4.2.0",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
-  }
+  "homepage": "https://github.com/racain/async-await-api-project#readme"
 }
